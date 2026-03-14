@@ -28,3 +28,6 @@ fs.unlink('../FS_Modules/about.txt', (err) => {
         console.log("file deleted successfully")
     }
 })
+
+
+fs.console

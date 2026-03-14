@@ -1,3 +1,4 @@
+// Create server log
 import fs from 'fs';
 import http from 'http';
 
@@ -9,7 +10,7 @@ const server = http.createServer((req, res) => {
         if(err){
             console.log(err);
         }
-
+        
         switch(req.url) {
             case "/":
                 res.end("Home page");
